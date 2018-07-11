@@ -80,5 +80,5 @@ module.exports = function(router){
         notesController.save(req.body, function(data){
             res.json(data);
         })
-    })
+    });
 } 
