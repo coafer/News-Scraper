@@ -10,6 +10,8 @@ var PORT = process.env.PORT || 3000;
 var app = express();
 //Instantiate express router
 var router = express.Router();
+//Passing the router object
+require("./config/routes")(router);
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
