@@ -26,7 +26,7 @@ module.exports = function(router) {
         });
       } else {
         res.json({
-          message: "Added" + docs.insertedCount + "new artcles"
+          message: "Added" + docs.insertedCount + "new articles"
         });
       }
     });
